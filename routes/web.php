@@ -2,6 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::any('/{any}', function () {
+Route::any('/', function () {
     return view('welcome');
-})->where(['any' => '.*']);
+});
