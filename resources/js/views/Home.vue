@@ -55,7 +55,7 @@
         }
     }
 
-    Echo.private('message')
+    Echo.private('message.1')
         .listen('MessageSent', (event) => {
             console.log(event.message)
             const element = document.getElementById('message-board');
